@@ -55,4 +55,4 @@
 
 * 7-Axis Manipulator
 
-[![7-Axis Manipulator](images\7-Axis_Robotic_Arm)](https://youtu.be/fxfj2z2l704 "7-Axis Manipulator")
+[![7-Axis Manipulator](images\7-Axis.jpg)](https://youtu.be/fxfj2z2l704 "7-Axis Manipulator")
