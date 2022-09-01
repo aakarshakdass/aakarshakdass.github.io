@@ -12,27 +12,25 @@
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- swiper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
-
     <!-- header section starts  -->
-
     <header>
-
         <div id="menu-bars" class="fas fa-bars"></div>
-
         <nav class="navbar">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#blogs">Research</a>
+            <a href="#certificate">Certificates</a>
             <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
-
     </header>
 
     <!-- header section ends -->
@@ -94,10 +92,8 @@
 
     <!-- about section ends -->
 
-    <!-- blogs section starts  -->
-
+    <!-- Research section starts  -->
     <section class="blogs" id="blogs">
-
         <h1 class="heading"> Research </h1>
 
         <div class="box-container">
@@ -125,13 +121,46 @@
                     -> Study of the parameters influencing its performance.</p>
                 <a href="pdf/Research Paper2.pdf" class="btn">Know More</a>
             </div>
-
-
         </div>
-
     </section>
+    <!-- Research section ends -->
 
-    <!-- blogs section ends -->
+    <!-- Certificate section starts -->
+    <section class="certificate" id="certificate">
+        <h1 class="heading"> <span>My </span> Certificates </h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            <div class="swiper-slide">
+                <img src="#" />
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certificate section ends -->
 
     <!-- portfolio section starts  -->
 
@@ -240,6 +269,9 @@
 
     <!-- typed.js link  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <!-- swiper.js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- particles.js links  -->
     <script src="js/particles.min.js"></script>
@@ -273,6 +305,23 @@
             max: 25
         });
 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      });
     </script>
 </body>
 
