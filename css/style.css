@@ -404,6 +404,11 @@ header .navbar a:hover{
     text-align: center;
 }
 
+.footer-social:hover {
+    transition: 0.2s;
+    color: var(--purple);
+}
+
 .footer span{
     color:var(--purple);
 }
