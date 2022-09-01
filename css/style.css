@@ -397,10 +397,12 @@ header .navbar a:hover{
 }
 
 .footer-social{
+    height: 25px;
     padding:.2rem;
     font-size: 2.5rem;
     color:#666;
-    background:#fff;
+    background-color: #fff;
+    /* border-radius: 10px; */
     text-align: center;
 }
 
