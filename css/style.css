@@ -389,8 +389,16 @@ header .navbar a:hover{
 }
 
 .footer{
-    padding:2.5rem;
-    font-size: 2rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color:#666;
+    background:#fff;
+    text-align: center;
+}
+
+.footer-social{
+    padding:.2rem;
+    font-size: 2.5rem;
     color:#666;
     background:#fff;
     text-align: center;
@@ -399,17 +407,6 @@ header .navbar a:hover{
 .footer span{
     color:var(--purple);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* media queries  */
 @media (max-width:991px){
