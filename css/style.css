@@ -439,8 +439,8 @@ body {
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 550px;
-    height: 300px;
+    width: 650px;
+    height: 350px;
     background: #000;
     -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006)
 }
