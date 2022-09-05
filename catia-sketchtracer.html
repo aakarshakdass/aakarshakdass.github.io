@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-CATIA V5</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="css\style.css">
+    <meta name='keywords' content="portfolio, aakarshak dass, catia, autocad, python, blender, arduino">
+    <meta name='robots' content="INDEX, FOLLOW">
+    <title>SKETCH TRACER DESIGN</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- swiper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css"> -->
 
 </head>
+
 <body>
     <header>
 
@@ -19,6 +29,7 @@
             <a href="index.html">Home</a>
             <a href="index.html#about">About</a>
             <a href="index.html#blogs">Research</a>
+            <a href="index.html#certificate">Certificates</a>
             <a href="index.html#portfolio">Project</a>
             <a href="index.html#contact">Contact</a>
 
@@ -32,9 +43,8 @@
     <h1 class="heading"> Catia V5 - Sketch Tracer </h1>
     <div class="box-container">
 
-
         <div class="box tilt">
-            <img src="catia\c-images\Sketch Tracer\Mouse.png" alt="Sketch Tracer">
+            <img src="catia\c-images\Sketch Tracer\Mouse.png" alt="Mouse">
             <h3> Logitech Mouse Design </h3>
             <p><b>Project Date: </b>7th June 2019<br>
                <b>Description:</b><br> This is a timelapse of Mouse Design in Sketch Tracer and FreeStyle
@@ -43,17 +53,17 @@
             <a href="https://youtu.be/SSWaw7-km9Y" class="btn">Know more</a>
         </div>
 
-        <!-- <div class="box tilt">
-            <img src="catia\c-images\Sketch Tracer\BMW Car.png" alt="Sketch Tracer">
+        <div class="box tilt">
+            <img src="catia\c-images\Sketch Tracer\BMW Car.png" alt="BMW">
             <h3> BMW Car Body Design </h3>
             <p><b>Project Date: </b> 5th June 2019 <br>
                 <b>Description:</b><br> This is a timelapse of BMW Body Design in Sketch Tracer and FreeStyle
                 Workbench in CATIA V5 with Pad, Edge Fillet, Groove, Hole, Mirror and Circular Pattern
                 tools.</p>
-            <a href="https://youtu.be/eR9f3KKu-3E" class="btn">Know More</a>
+            <a href="#" class="btn">Know More</a>
         </div>
 
-        <div class="box tilt">
+        <!--<div class="box tilt">
             <img src="duct.jpg" alt="part design">
             <h3> 3D Duct Design </h3>
             <p><b>Project Date: </b>10th June 2018<br>
@@ -62,12 +72,89 @@
                Feature tools. </p>
             <a href="https://youtu.be/f3-R668J3-w" class="btn">Know more</a>
         </div> -->
+    </div>
+    </section>
+<!-- blogs section ends -->
 
+<!-- footer section starts -->
+    <div class="footer-social">
+        <a href="https://www.youtube.com/channel/UCEIqHtPxNji7dDMBuNf00og" target="_blank" class="footer-social">
+            <i class="uil uil-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/aakarshakdass19/" target="_blank" class="footer-social">
+            <i class="uil uil-instagram"></i>
+        </a>
+        <a href="https://grabcad.com/aakarshak.dass-2" target="_blank" id="cube" class="footer-social">
+            <i class="uil uil-cube"></i>
+        </a>
+        <a href="#" target="_blank" class="footer-social">
+            <i class="uil uil-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aakarshak-dass-147b19217/" target="_blank" class="footer-social">
+            <i class="uil uil-linkedin"></i>
+        </a>
     </div>
 
-    </section>
+    <div class="footer"> created by <span> Aakarshak Dass </span> | All Rights Reserved! </div>
 
-<!-- blogs section ends -->
+<!-- footer section ends -->
+
+    <!-- javascript part  -->
+    <!-- typed.js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    
+    <!-- swiper.js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- particles.js links  -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- vanilla-tilt.js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script>
+
+        let menu = document.querySelector('#menu-bars');
+        let header = document.querySelector('header');
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            header.classList.toggle('active');
+        }
+
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            header.classList.remove('active');
+        };
+
+        // var typed = new Typed('.typing-text', {
+        //     strings: ['', 'Mechanical Engineer', 'CAD Designer', 'Python Developer', 'Sportsman'],
+        //     loop: true,
+        //     typeSpeed: 120
+        // });
+
+        VanillaTilt.init(document.querySelectorAll('.tilt'), {
+            max: 25
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 20,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        loop: true,
+      });
+    </script>
 
 </body>
 </html>
